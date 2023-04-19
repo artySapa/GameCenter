@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Ubuntu:wght@300&display=swap');
+
+.information{
+    background-color: rgb(153, 162, 160);
+    border-radius: 10px;
+    z-index: 2;
+    justify-content: center;
+    justify-items: center;
+    width:30%;
+    margin: 20px;
+    color:white;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    transform: translateX(20%) translateY(10%);
+}
+
+.introduction {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    z-index:2;
+}
+
+.fancy {
+    text-decoration: none;
+
+    position: absolute;
+    display:block;
+    width: 80px;
+    height: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 80px;
+    color: white;
+    border:none;
+    border-radius: 50%;
+    background-image: url("../assets/gradient.gif"); opacity: 1;
+    cursor:pointer;
+    box-shadow: 0 0 0 0 #FF995040;
+    animation: pulse 1.5s infinite;
+
+    /* padding: 16px 32px;
+    margin: auto;
+    
+    
+    
+    transition: 0.3s; */
+}
+
+.fancy:hover {
+    animation: none;
+}
+
+.fancy:active{
+    transform: translateY(1.5%);
+}
+
+@keyframes pulse {
+    to {
+        box-shadow: 0 0 0 35px #FF995000;
+    }
+}
